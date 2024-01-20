@@ -1,0 +1,24 @@
+.cards {
+width: 80vw;
+height: 50vh;
+margin: 0 auto;
+display:flex;
+flex-wrap:wrap;
+justify-content:space-around;
+grid-template-columns: 1fr 1fr 1fr;
+font-size:small;
+font-family:'Courier New', Courier, monospace;
+color: rgb(0, 0, 0);
+margin-bottom: 45px;
+}
+
+.pagination:hover {
+    text-decoration: none;
+    color: inherit; 
+    filter: drop-shadow(0 0 1em #22aeffd5);
+    cursor: pointer; 
+}
+
+.selected {
+    background-color: #174dff;
+}

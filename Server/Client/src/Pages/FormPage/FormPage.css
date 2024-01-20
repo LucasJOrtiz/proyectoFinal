@@ -1,0 +1,65 @@
+.nav-button {
+  margin-right: 10px;
+  background-color: #f0f0f0;
+  border: 1px solid #ccc;
+  padding: 8px 16px;
+  text-decoration: none;
+  color: #333;
+  cursor: pointer;
+  border-radius: 5px; 
+}
+
+.nav-button:hover {
+  background-color: #e0e0e0;
+}
+
+  .select-container {
+    height: 120px; 
+    overflow-y: auto; 
+    border-radius: 5px;
+  }
+
+  .select-container::-webkit-scrollbar {
+    width: 15px; 
+  }
+  
+  .select-container::-webkit-scrollbar-thumb {
+    height: 15px;
+  }
+
+  .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    overflow-y:auto;
+    max-height: calc(80vh - 100px);
+  }
+
+  .selected-teams-container > div {
+    display: flex;
+    justify-content: space-between; 
+    align-items: center; 
+  }
+  
+  .selected-teams-container > div button {
+    margin-left: auto; 
+  }
+  
+  .form-group {
+    margin-bottom: 15px;
+    position: relative;
+  }
+  
+  .error-message {
+    color: #cc0000; 
+    font-size: 12px; 
+    position: absolute;
+    bottom: -20px; 
+    left: 0;
+  }
+
+  .error-dialog {
+    color: #cc0000; 
+    background-color: #ff000015;
+    border-radius: 5px;
+  }
