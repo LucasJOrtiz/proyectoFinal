@@ -57,8 +57,18 @@ git merge nombre-de-la-rama
 ```
 **Eliminar una rama después de fusionar cambios:**
 ```bash
-git branch -d nombre-de-la-rama
+git bra
+nch -d nombre-de-la-rama
+```
+**Dependencias instaladas en el Back:**
+```bash
+npm i express axios nodemon morgan sequelize pg pg-hstore dotenv
+```
+**Dependencias instaladas en el Front (Vite):**
+```bash
+npm i axios react react-redux redux redux-thunk react-router-use-history react-router-dom redux-devtools-extension
 ```
 
 ## Período de Trabajo
-Fecha de inicio: 22/01/2024 - Fecha de entrega: 24/02/2024
+Fecha de inicio: 22/01/2024  
+Fecha de entrega: 24/02/2024
