@@ -1,0 +1,98 @@
+.message {
+    color: #ffffff; 
+    font-size: 18px; 
+    font-weight: bold; 
+    padding: 8px; 
+    border: 2px solid #ff0000; 
+    border-radius: 5px; 
+    background-color: rgba(255, 0, 0, 0.1); 
+    margin-top: 10px;
+    filter: drop-shadow(0 0 2em #fbff22);
+    margin-right: 10px;
+}
+
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .title {
+    margin: 20px;
+  }
+
+.title a {
+    text-decoration: none;
+    color: inherit; 
+    padding: 8px; 
+    margin-right: 10px;
+}
+
+.title a:hover {
+    text-decoration: none;
+    color: inherit; 
+    filter: drop-shadow(0 0 2em #fbff22);
+}
+
+.nav-button {
+    margin-right: 10px;
+    background-color: #f0f0f0;
+    border: 1px solid #ccc;
+    padding: 8px 16px;
+    text-decoration: none;
+    color: #333;
+    cursor: pointer;
+    border-radius: 5px; 
+  }
+  
+  .nav-button:hover {
+    background-color: #e0e0e0;
+  }
+
+.home {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-top: 20px; 
+}
+
+.filter-container {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+    background-color: rgba(64, 107, 250, 0.404);
+    border-radius: 5px;
+    padding: 5px;
+}
+
+.filter select:hover {
+    filter: drop-shadow(0 0 2em #ff6498aa);
+    cursor: pointer; 
+}
+
+.filter {
+    display: flex;
+    align-items: center;
+    margin-right: 20px;
+}
+
+.filter p {
+    margin-right: 8px; 
+  }
+
+  .error-container {
+    display: flex;
+    align-items: center; 
+    justify-content: space-between; 
+    width: 100%; 
+    max-width: 350px; 
+  }
+
+  .clear-error {
+    background: none;
+    border: none;
+    color: white;
+    cursor: pointer;
+    margin-top: -60px;
+  }
